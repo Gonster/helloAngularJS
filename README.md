@@ -1,3 +1,3 @@
 helloAngularJS
 ==============
-[test page categoryBlock module](http://gonster.github.io/helloAngularJS/helloAngularJS)
+[categoryBlock module test page](http://gonster.github.io/helloAngularJS/helloAngularJS)
