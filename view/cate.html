@@ -1,0 +1,16 @@
+<div>hello {{userName ||'AngularJS'}}</div>
+<div><input type="text" ng-model="userName" placeholder="name"/></div>
+<div>
+    <select ng-model="orderColumn">
+        <option value="name">name</option>
+        <option value="quntity">quntity</option>            
+    </select>
+</div>
+<div>
+    <ul>
+        <li ng-repeat="item in aList | filter: userName | orderBy: orderColumn">
+            <span class="name">{{item.name}}</span>
+            <span class="quntity">{{item.quntity}}</span>
+        </li>
+    </ul>        
+</div>
