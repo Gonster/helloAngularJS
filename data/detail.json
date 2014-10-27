@@ -1,11 +1,11 @@
 [
     {
-        'name': 'color',
-        'number': 256
+        "name": "color",
+        "number": 256
 
     },
     {
-        'name': 'pattern',
-        'number': 6
+        "name": "pattern",
+        "number": 6
     }
 ]
